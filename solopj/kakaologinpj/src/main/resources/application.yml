@@ -1,0 +1,11 @@
+spring:
+  profiles:
+    include: private
+
+kakao:
+  client-id: 6f58034d51f7643f28ad36f44c347a4c
+  client-secret: dVPPAfNl503laoTNxLOZveQmf3dvCijy
+  redirect-uri: http://localhost:8080/oauth/kakao/callback
+  authorization-uri: https://kauth.kakao.com/oauth/authorize
+  token-uri: https://kauth.kakao.com/oauth/token
+  user-info-uri: https://kapi.kakao.com/v2/user/me

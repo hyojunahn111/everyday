@@ -1,4 +1,4 @@
-package kakaologinpj;
+package com.penguinfactory.kakaologinpj;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
