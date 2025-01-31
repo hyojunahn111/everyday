@@ -1,0 +1,29 @@
+body {
+    justify-content: center;
+}
+
+#emojistlye {
+    text-align: center;
+    margin-top: auto;
+}
+
+#emojistlye li{
+    margin: 0;
+    padding: 20px;
+    float: left;
+    list-style: none;
+}
+
+#emojistlye img{
+    height: 5rem;
+    width: 5rem;
+    cursor: pointer;
+}
+
+#emojistlye img:hover{
+    opacity: 0.5;
+}
+
+#emojili {
+    list-style: none;
+}
