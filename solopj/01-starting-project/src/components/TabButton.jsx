@@ -1,21 +1,10 @@
-/*방법1*/
-/*
-export default function TabButton(props){
-    return (
+export default function TabButton({ children, isSelected, ...props }) {
+  console.log('TABBUTTON COMPONENT EXECUTING');
+  return (
     <li>
-        <button>{props.children}</button>
+      <button className={isSelected ? 'active' : undefined} {...props}>
+        {children}
+      </button>
     </li>
-    );
-}*/
-
-/*방법2*/
-export default function TabButton({children, onSelect, isSelected}){
-    console.log('TabBT COMPOENET EXECUTING');
-
-
-    return (
-        <li>
-            <button className={isSelected ? 'active' : undefined} onClick={onSelect}>{children}</button>
-        </li>
-    );
+  );
 }
